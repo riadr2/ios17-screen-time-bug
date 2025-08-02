@@ -4,7 +4,7 @@ Investigation into a bug in iOS 17.0 where FamilyControlsAgent crashes due to ov
 ---
 
 If you’re on **iOS 17.0** and apps that use Screen Time features (like **Opal**, **One Sec**, etc.) are freezing on launch  here’s the fix:
-1.	Open the **Files app** on your iPhone.
+1.	Using the **Filza app**
 2.	Navigate to: /private/var/mobile/Library/com.apple.FamilyControlsAgent/
 3. Locate the file named Store.plist Rename it to something like Store.plist.bak
 4. Relaunch the app it should now work instantly.
